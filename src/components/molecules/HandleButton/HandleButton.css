@@ -1,0 +1,106 @@
+.withIcon {
+    display: flex;
+    flex-direction: row;
+    height: 36px;
+    background: rgba(92, 106, 196, 0.1);
+    border-radius: 5px;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.withIcon:focus {
+    outline: unset;
+}
+
+.withIcon svg {
+    width: 14px;
+    height: 14px;
+    margin-right: 11px;
+    margin-left: 6px;
+    cursor: pointer;
+
+}
+.withIcon p {
+    width: 80px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.15px;
+    color: #5C6AC4;
+}
+
+.bgFull {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 10px;
+    width: 88px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 0.8rem;
+    cursor: pointer;
+    background: #F49342;
+}
+.bgFull:focus {
+    outline: unset;
+}
+
+.bgFull p {
+    right: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: white;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 10px 0;
+}
+
+.bgLess {
+    justify-content: center;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    padding: 3px 10px;
+    width: 88px;
+    height: 36px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 0.8rem;
+    cursor: pointer;
+    border: 1px solid #DADCE6;
+}
+
+.bgLess p {
+    right: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: 0.15px;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.15px;
+    color: white;
+    flex: none;
+    order: 0;
+    align-self: center;
+    margin: 10px 0;
+    color: #F49342;
+
+}

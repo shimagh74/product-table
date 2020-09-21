@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Yekan Bakh';
+    src: url('../fonts/YekanBakh-Regular.woff') format("eot"), url('../fonts/YekanBakh-Regular.ttf') format("woff"), url('../fonts/YekanBakh-Regular.otf') format("truetype");
+  }
+
+*{
+    font-family: Yekan Bakh ;
+}
+
+input[type="checkbox"] {
+  border: 1px solid red;
+  color: red;
+  content: "\00a0";
+  height: 16px;
+  margin: 0 .25em 0 0;
+  padding: 0;
+  vertical-align: top;
+  width: 16px;
+}

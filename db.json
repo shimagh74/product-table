@@ -1,0 +1,47 @@
+{
+    "productList": [
+        {
+            "name": ""
+        }, {
+            "name": "2مسواک"
+        }, {
+            "name": "3مسواک"
+        }, {
+            "name": "4مسواک"
+        }, {
+            "name": "5مسواک"
+        }
+    ],
+    "pricepolitics": [
+        {
+            "name": ""
+        }, {
+            "name": "درصد"
+        }, {
+            "name": "مقدار"
+        }
+    ],
+    "dataListType": [
+        {
+            "id": 1,
+            "Rang1": "  200  ",
+            "Rang2": " 400",
+            "Percentage": "40%",
+            "value": "3450000"
+
+        }, {
+            "id": 2,
+            "Rang1": "  200  ",
+            "Rang2": " 400",
+            "Percentage": "56%",
+            "value": "3450000"
+        }, {
+            "id": 3,
+            "Rang1": "  200  ",
+            "Rang2": " 400",
+            "Percentage": "20%",
+            "value": "3450000"
+        }
+    ]
+
+}

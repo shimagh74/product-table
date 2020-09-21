@@ -1,0 +1,105 @@
+.AccessPage {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+    width: 860px;
+    height: 875px;
+    background: #F5F5F5;
+    box-shadow: 0 5px 6px rgba(0, 0, 0, 0.2), 0 3px 16px rgba(0, 0, 0, 0.12), 0 9px 12px rgba(0, 0, 0, 0.14);
+
+    z-index: 3;
+}
+
+.AccessContent {
+    position: absolute;
+    top: 70px;
+
+    margin: 20px;
+
+    width: 820px;
+    height: 765px;
+
+    background: #FFFFFF;
+    border-radius: 5px;
+}
+
+.AccessList {
+    border: 1px solid #DADCE6;
+    /* width: 766px; */
+    margin-right: 1.2rem;
+    margin-left: 1.2rem;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8rem;
+    border-radius: 0 0 5px 5px;
+}
+
+.iconList {
+    margin: auto 5px;
+}
+.head {
+    border-left: 1px solid #DADCE6;
+    border-right: 1px solid #DADCE6;
+    border-bottom: 1px solid #DADCE6;
+    margin-left: 1.2rem;
+    margin-right: 1.2rem;
+}
+
+.AddRow {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding-right: 1.2rem;
+    margin-top: 1rem;
+}
+.first{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.second{ display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.third{
+    align-items: center;
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 215px
+}
+.input-table {
+    width: 80px;
+    height: 40px;
+    border: 1px solid #DADCE6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.input-table:focus {
+    outline: unset;
+}
+.input-table-left {
+    width: 128px;
+    height: 40px;
+
+    border: 1px solid #DADCE6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.input-table-left:focus {
+    outline: unset;
+}
+.text-input {
+    padding: 0 5px;
+    color: #3C4043;
+    font-size: 16px;
+    line-height: 30px;
+    align-self: center;
+}

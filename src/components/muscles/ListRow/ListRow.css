@@ -1,0 +1,14 @@
+.ListRowRoot {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 779px;
+  right: 55px;
+  direction: ltr;
+  margin: 0 auto;
+}
+.iconRow{
+  align-self: center;
+  padding: 5px;
+  margin: 3px;
+  
+}

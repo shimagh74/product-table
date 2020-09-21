@@ -1,0 +1,8 @@
+.RowRoot {
+  background-color: red;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  }

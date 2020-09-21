@@ -1,0 +1,13 @@
+.dropdown {
+    height: 30px;
+}
+.lable {
+    font-family: Yekan Bakh;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: right;
+    letter-spacing: 0.15px;
+    color: #868686;
+}

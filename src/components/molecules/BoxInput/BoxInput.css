@@ -1,0 +1,58 @@
+.borderButtonWithIcon {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    height: 53px;
+    flex: 1 1;
+}
+.borderButtonWithIcon input {
+        border-bottom: 1px solid #DADCE6 !important;
+        border: none;
+        width: 295;
+        width: 295px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 12px;
+        line-height: 30px;
+        margin-right: 20px;
+        margin-top: 20px;
+    }
+    .borderButtonWithIcon input :focus {
+                outline: unset;
+            }
+    .borderButtonWithIcon .icon {
+        margin-top: 1.6rem;
+        position: absolute;
+        right: 20rem;
+    }
+    .borderButtonWithIcon svg {
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: 1.5rem;
+        left: 0;
+        position: absolute;
+    }
+
+/* // .borderFull{
+//     display: flex;
+//     position: relative;
+//     flex-direction: row;
+//     height: 53px;
+//     flex: 1 1;
+
+//     input {
+//         border: 1px solid #DADCE6 !important;
+//         border: none;
+//         width: 295;
+//         width: 295px;
+//         font-style: normal;
+//         font-weight: 300;
+//         font-size: 12px;
+//         line-height: 30px;
+//         margin-right: 20px;
+//         margin-top: 20px;
+//         &:focus {
+//             outline: unset;
+//         }
+//     }
+// } */

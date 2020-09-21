@@ -1,0 +1,13 @@
+.listLabel {
+  display: flex;
+  flex-direction: row-reverse;
+  width: calc(100% - 60px);
+  height: 50px;
+  margin-right: 5px;
+  direction: ltr;
+  justify-content: right;
+  align-items: center;
+  margin-right: 13px;
+}
+
+

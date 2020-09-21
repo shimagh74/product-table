@@ -1,0 +1,36 @@
+.Frame {
+    width: 246px;
+    height: 40px;
+    background: #FFFFFF;
+    border: 1px solid #DADCE6;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.Frame:focus {
+    outline: unset;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.content-item {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.check {
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+}
+.text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.15px;
+    color: #3C4043;
+    margin-right: 9px;
+}
